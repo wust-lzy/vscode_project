@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+/*
+水题
+*/
 int main()
 {
     map<int, int> book;

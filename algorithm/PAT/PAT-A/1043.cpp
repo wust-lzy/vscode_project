@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+/*
+二叉排序树的建立，与插入结点
+*/
 struct node
 {
     int data;  //数据域

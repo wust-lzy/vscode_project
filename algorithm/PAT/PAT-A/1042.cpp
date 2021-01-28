@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+/*
+简单模拟
+*/
 int main()
 {
     char book[6]="SHCDJ";

@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+/*
+暴力法，求子串
+*/
 bool check(string s)
 {
     int len = s.length();
@@ -22,11 +25,6 @@ int main()
         {
             if(check(s.substr(i, j - i + 1)))
                 maxn = j - i + 1;
-            // string temp = s.substr(i, j - i + 1);
-            // string cop = temp;
-            // reverse(cop.begin(), cop.end());
-            // if(cop==temp)
-            //     maxn = j - i + 1;
         }
     }
     cout << maxn;

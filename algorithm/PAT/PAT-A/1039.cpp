@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+/*
+学生选课，输入学生姓名，求学生选的课程
+哈系表，每个学生对应一个课程集合，并对课程进行排序
+*/
 map<string, vector<int> >book;//给学生编号
 int main()
 {
