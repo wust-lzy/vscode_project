@@ -2,7 +2,7 @@
 using namespace std;
 typedef long long ll;
 /*
-二叉排序树的建立，与插入结点
+二叉搜索树的建立，与插入结点
 */
 struct node
 {

@@ -25,6 +25,7 @@ int main()
             printf("%d %d\n", v[i], temp);
             return 0;
         }
+        book[v[i]]++;
     }
     cout << "No Solution";
     return 0;
