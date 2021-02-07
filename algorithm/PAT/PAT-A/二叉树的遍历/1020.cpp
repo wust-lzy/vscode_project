@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+/*
+已知后序和中序
+输出层序遍历的结果~
+*/
 int post[35], in[35];
 map<int, int> ans;
 /*

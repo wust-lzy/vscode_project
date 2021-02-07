@@ -1,7 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
-
+/*
+简单模拟，多项式的加法
+*/
 double a[1001];
 int main()
 {

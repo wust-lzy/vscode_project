@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+/*
+树的层序遍历
+统计每层的叶子节点的个数
+*/
 //二维数组，v[index][a] index表示根节点，a表示index的后代
 vector<int> v[105];
 int maxdepth = -1,num[100];//最大层数，从0开始，每层的叶子节点数

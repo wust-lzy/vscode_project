@@ -1,17 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
-int n, m, c1, c2;//点数，边数，起点，终点
-bool vis[505];
-const int inf = 999999;
-int e[505][505], weight[510], dis[510], num[505], w[510];
-/*e[u][v]表示从u到v边的权值，weight[i]表示每个点的权值，
+/*
+dijkstra算法
+e[u][v]表示从u到v边的权值，weight[i]表示每个点的权值，
 dis[i]表示从出发点到i点的最短路径长度，num[i]表示从出发点到i点的最短路径数
 w[i]表示从出发点到i点的点权值之和
 dis[u]+e[u][v]<dis[v]  更新dis[v] ,num[v],w[v]
 dis[u]+e[u][v]=dis[v]  更新num[v],w[v]
 ...
 */
+int n, m, c1, c2;//点数，边数，起点，终点
+bool vis[505];
+const int inf = 999999;
+int e[505][505], weight[510], dis[510], num[505], w[510];
 int main()
 {
     cin >> n >> m >> c1 >> c2;

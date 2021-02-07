@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+/*
+字符串处理
+每3位加一个逗号
+*/
 int main()
 {
     ll a, b, sum;

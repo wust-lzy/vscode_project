@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+/*
+最大连续子序列和
+在线更新法
+*/
 int main()
 {
     int v[10001];

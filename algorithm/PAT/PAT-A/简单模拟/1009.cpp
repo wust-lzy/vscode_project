@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+//多项式的乘法
 double a[1005], b[1005], c[2010];
 int main()
 {

@@ -12,7 +12,7 @@ ll convert(string s,ll radix) //将radix进制的s转换成10进制
     }
     return sum;
 }
-//二分法，找到是否有一种进制，能够让n等于sum
+//二分法，找到是否有一种进制，能够让s等于sum
 ll find_radix(string s,ll num)
 {
     char it = *max_element(s.begin(), s.end());

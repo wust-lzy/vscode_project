@@ -1,6 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+/*
+给出n个结点（1~n）之间的n条边，问是否能构成一棵树，
+如果不能构成则输出它有的连通分量个数，
+如果能构成一棵树，输出能构成最深的树的高度时，树的根结点。
+如果有多个，按照从小到大输出。
+*/
 vector<vector<int> > v;
 bool vis[10005];
 vector<int> temp;

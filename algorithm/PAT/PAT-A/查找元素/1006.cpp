@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+/*
+给出n个人的id、sign in时间、sign out时间，
+求最早进来的人和最早出去的人的ID
+*/
 char t1[100] = "23:59:59";
 char t2[100] = "00:00:00";
 string ans1, ans2;

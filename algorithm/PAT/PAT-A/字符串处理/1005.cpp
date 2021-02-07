@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+/*
+简单题
+字符串处理求和
+*/
 int main()
 {
     string s;
