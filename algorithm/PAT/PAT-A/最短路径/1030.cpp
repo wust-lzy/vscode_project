@@ -45,7 +45,7 @@ int main()
         scanf("%d", &cost[a][b]);
         cost[b][a] = cost[a][b];
     }
-    pre[s].push_back(s);
+    // pre[s].push_back(s);
     dis[s] = 0;
     for (int i = 0; i < n;i++)
     {

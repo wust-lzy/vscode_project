@@ -8,7 +8,8 @@ typedef long long ll;
 int post[35], in[35];
 map<int, int> ans;
 /*
-左子树的根在后序中为root-(end-i+1)
+i表示后序中根节点在中序中的位置
+左子树的根在后序中为root-(end-i+1) 当前根-（右子树的个数+1）
 左子树的起点为start，末尾为i-1
 右子树的根为root-1，起点为i+1，末尾为end
 */
