@@ -21,8 +21,8 @@ void level(int root,int start,int end,int index)
     while(i<end&&in[i]!=post[root])
         i++;
     ans[index] = post[root];
-    level(root - (end - i + 1), start, i - 1, 2 * index);
-    level(root - 1, i + 1, end, 2 * index + 1);
+    level(root - (end - i + 1), start, i - 1, 2 * index);//左子树
+    level(root - 1, i + 1, end, 2 * index + 1); //右子树
 }
 int main()
 {
