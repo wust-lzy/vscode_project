@@ -10,7 +10,7 @@ vector<int> v[105];
 int maxdepth = -1,num[100];//最大层数，从0开始，每层的叶子节点数
 void dfs(int index,int depth)
 {
-    if(!v[index].size())
+    if(v[index].empty())
     {
         maxdepth = max(maxdepth, depth);
         num[depth]++;

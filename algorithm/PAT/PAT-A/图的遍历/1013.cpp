@@ -4,6 +4,7 @@ typedef long long ll;
 int n, m, k;
 bool vis[1005];
 int book[1005][1005];
+//统计连通分量的个数
 void dfs(int index)
 {
     vis[index] = 1;
