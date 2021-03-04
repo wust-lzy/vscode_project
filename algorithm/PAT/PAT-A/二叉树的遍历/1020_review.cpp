@@ -52,5 +52,5 @@ int main()
         if(i!=n-1)
             cout << " ";
     }
-        return 0;
+    return 0;
 }
