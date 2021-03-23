@@ -48,7 +48,7 @@ int main()
             if(i==1)
             {
                 if(temp.size()!=0)
-                    s1 = temp[0];
+                    s1 = temp[0];//叶子结点
                 for (int j = 0; j < temp.size();j++)
                     s.insert(temp[j]);
             }

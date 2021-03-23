@@ -33,7 +33,6 @@ int main()
     int n, m, t;
     cin >> n >> m;
     priority_queue<node,vector<node> > temp;
-
     for (int i = 0; i < m;i++)
     {
         scanf("%d", &t);
